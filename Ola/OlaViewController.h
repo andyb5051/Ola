@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface OlaViewController : UIViewController
+- (IBAction)pushMe:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *helloWorld;
 
 @end

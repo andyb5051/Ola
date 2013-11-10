@@ -26,4 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pushMe:(id)sender {
+    _helloWorld.text = @"You pushed a button";
+}
 @end
